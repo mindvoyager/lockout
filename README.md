@@ -13,7 +13,7 @@ the <dict> values under <key>StartCalendarInterval</key>
 * Create launch daemons that run the scripts at desired lock out/unlock times:
   * `sudo cp com.jooi.lockout.plist /Library/LaunchDaemons/`
   * `sudo cp com.jooi.unlock.plist /Library/LaunchDaemons/`
-* Creat a launch agent that returns the user to the lock screen 
+* Create a launch agent that returns the user to the lock screen 
 so they can't continue after the account is disabled
   * `sudo cp com.jooi.lockscreen.plist /Library/LaunchAgents/`
 
